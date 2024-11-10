@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+python-dotenv = "*"
+pydantic = "*"
+setuptools = "*"
+python-multipart = "0.0.12"
+uvicorn = "*"
+fastapi = "*"
+elevenlabs = "*"
+manim-voiceover = {extras = [], version = "*"}
+anthropic = "*"
+instructor = "*"
+manim-dsa = "*"
+manim-physics = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
